@@ -1,1 +1,1 @@
-Feature text 1
+Feature text

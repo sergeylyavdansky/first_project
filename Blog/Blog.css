@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+a, a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 html, body {
     height: 100%;
 }
@@ -19,7 +24,7 @@ body {
 
 header {
     width: 625px;
-    height: 150px;
+    height: 130px;
     margin: auto;
     outline: 2px solid #666;
     display: flex;
@@ -37,7 +42,7 @@ header {
 
 .header__serch {
     margin-bottom: 20px;
-    width: 150px;
+    width: 180px;
     height: 20px;
     outline: 2px solid #666;
 }
@@ -48,14 +53,13 @@ form {
 }
 
 .serch input {
-    width: 150px;
+    width: 180px;
     height: 20px;
     padding: 0 25px 0 10px;
     border: 1px solid #c4c9c9;
     border-radius: 5px;
     outline: none;
-    background-color: #86908c;
-    color: #fffcfc;
+    background-color: #f2efef;
 }
 
 .serch button:before {
@@ -65,12 +69,14 @@ form {
 .serch button {
     position: absolute;
     top: 0;
-    right: 0px;
+    right: 0;
     width: 20px;
     height: 20px;
-    border: none;
     background: #86908c;
     cursor: pointer;
+    border: 1px solid #c4c9c9;
+    border-radius: 5px;
+    outline: none;
 }
 
 .header__avatar {
@@ -104,8 +110,8 @@ main {
 }
 
 .post {
-    width: 500px;
-    height: 150px;
+    width: 550px;
+    height: 200px;
     margin: 10px;
     background-color: rgba(134, 144, 140, 0.86);
     outline: 2px solid #666;
@@ -129,9 +135,17 @@ main {
 }
 
 .post__tags {
-
+    outline: 2px solid #666;
+    margin-right: 50px;
 }
 
+.post-full {
+    width: 550px;
+    height: max-content;
+    margin: 10px;
+    background-color: rgba(134, 144, 140, 0.86);
+    outline: 2px solid #666;
+}
 
 .footer {
     width: 100%;

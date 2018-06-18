@@ -4,7 +4,7 @@
 
 a, a:visited {
     text-decoration: none;
-    color: #ffffff;
+    color: #86908c;
 }
 
 html, body {
@@ -18,15 +18,14 @@ body {
 
 .header {
     width: 100%;
-    background-color: rgba(134, 144, 140, 0.86);
-    outline: 2px solid #666;
+    background-color: #e9e9e9;
+
 }
 
 header {
-    width: 625px;
+    width: 800px;
     height: 130px;
     margin: auto;
-    outline: 2px solid #666;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -37,14 +36,14 @@ header {
     margin-bottom: 20px;
     width: 200px;
     height: 40px;
-    outline: 2px solid #666;
+
 }
 
 .header__serch {
     margin-bottom: 20px;
     width: 180px;
     height: 20px;
-    outline: 2px solid #666;
+
 }
 
 form {
@@ -52,14 +51,18 @@ form {
     position: relative;
 }
 
+.serch {
+    outline: 1px solid #666;
+}
+
+
 .serch input {
     width: 180px;
     height: 20px;
     padding: 0 25px 0 10px;
-    border: 1px solid #c4c9c9;
+    border: 1px solid #e9e9e9;
     border-radius: 5px;
     outline: none;
-    background-color: #f2efef;
 }
 
 .serch button:before {
@@ -72,9 +75,8 @@ form {
     right: 0;
     width: 20px;
     height: 20px;
-    background: #86908c;
     cursor: pointer;
-    border: 1px solid #c4c9c9;
+    border: 1px solid #e9e9e9;
     border-radius: 5px;
     outline: none;
 }
@@ -83,7 +85,7 @@ form {
     margin-bottom: 50px;
     width: 70px;
     height: 70px;
-    outline: 2px solid #666;
+
 }
 
 .avatar {
@@ -94,15 +96,14 @@ form {
 
 .main {
     width: 100%;
-    outline: 2px solid #666;
+
     flex-grow: 1;
 }
 
 main {
-    width: 625px;
-    background-color: rgba(161, 161, 161, 0.53);
+    width: 800px;
     margin: auto;
-    outline: 2px solid #666;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,32 +111,32 @@ main {
 }
 
 .post {
-    width: 550px;
+    width: 800px;
     height: 200px;
     margin: 10px;
-    background-color: rgba(134, 144, 140, 0.86);
-    outline: 2px solid #666;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-around;
+    background-color: #e9e9e9;
 }
 
 .post__date {
     width: 80px;
     height: 20px;
-    outline: 2px solid #666;
+
 }
 
 .post__text {
-    width: 400px;
+    width: 700px;
     height: 90px;
-    outline: 2px solid #666;
+
     margin-right: 50px;
 }
 
 .post__tags {
-    outline: 2px solid #666;
+
     margin-right: 50px;
 }
 
@@ -143,15 +144,13 @@ main {
     width: 550px;
     height: max-content;
     margin: 10px;
-    background-color: rgba(134, 144, 140, 0.86);
-    outline: 2px solid #666;
+
 }
 
 .footer {
     width: 100%;
     height: 50px;
-    background-color: rgba(134, 144, 140, 0.86);
-    outline: 2px solid #666;
+    background-color: #e9e9e9;
     flex-shrink: 0;
 }
 
